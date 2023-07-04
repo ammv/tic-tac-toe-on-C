@@ -1,0 +1,19 @@
+{
+    "code-runner.executorMap": {
+        "c": "gcc lib/*.c $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt ",
+        "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    },
+    "code-runner.runInTerminal": true,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.saveAllFilesBeforeRun": true,
+    "files.associations": {
+        "ttt_funcs.h": "c",
+        "stdio.h": "c",
+        "utils.h": "c",
+        "conio.h": "c",
+        "_mingw.h": "c",
+        "_cygwin.h": "c",
+        "stddef.h": "c",
+        "config.h": "c"
+    },
+}
